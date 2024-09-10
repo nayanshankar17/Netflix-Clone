@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(0, 0, 0, 0.95);
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+}
+.empty{
+    height: 200px;
+    width: 100%;
+}
+.text{
+    height: 80px;
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.profiles{
+    height: 240px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#out1{
+    margin-left: 270px;
+}
+#out2{
+    margin-right: 270px;
+}
+.profileout{
+    height: 220px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.profilepic{
+    height: 160px;
+    width: 160px;
+    border-radius: 0.5cap;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+.profilename{
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    color: rgba(60, 117, 114, 0.9);
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.profilename:hover{
+    color: white;
+}
+.profilepic:hover{
+    height: 154px;
+    width: 154px;
+    margin-bottom: 6.5px;
+    border: 3px solid white;
+}
+#p1{
+    background: url(p2.jpg);
+    background-size: contain;
+}
+#p2{
+    background: url(p1.jpg);
+    background-size: contain;
+}
+#p3{
+    background: url(p3.jpg);
+    background-size: contain;
+}
+#p4{
+    background: url(p4.jpg);
+    background-size: contain;
+}
+#p5{
+    background: url(p5.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 0.5cap;
+    margin: 40px 50px 45px 50px;
+}
+.manageout{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.manage{
+    height: 30px;
+    width: 220px;
+    margin-top: 70px;
+    padding: 8px 0px 0px 0px;
+    text-align: center;
+    color: rgba(60, 117, 114, 0.9);
+    border: 2px solid rgba(60, 117, 114, 0.9);
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.manage:hover{
+    border: 1.8px solid white;
+    color: white;
+}
